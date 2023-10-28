@@ -27,14 +27,23 @@ For the good model fit and accuret prediction we've explore the data and done Un
 Bivariate Analysis :
 We've check and learn that which type of occupations have more chances to subscribe our term insurance policy.
 
-Job vs Target Var
+
 
 Correlation :
 We've check correlation between differant variables. We can see here Duration of Call is Highly correlated to our target variable.
 
-Corelation
+
 
 We've split our dataset into 80:20 ratio for train and test purpose to fit into our various Machine Learning Models.
 
 Then we've use 'Logistic Regression Model', 'Decision Tree Model' and 'K Neighbors Classifier Model' and check it's Accuracy Score and check our evaluation metrix AUROC Score.
+
+Result :
+We've get:
+
+image
+
+So We'll use the 'Decision Tree Classifier' Model for our predictions. It'll give us accurete and our evalatution metrix 0.7 abide predicted output.
+Our company can run cost effective and time redusing tele marketing campaign by firstly prioritize potential client from our predicted output and utilse human resourses according to it.
+
 
